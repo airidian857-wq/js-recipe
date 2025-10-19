@@ -10,7 +10,9 @@ const hikakin = {
   sayHello: function () {
     console.log("ブンブンハロー YouTube")
   },
-}// TRY: 練習問題１
+}
+hikakin.sayHello()
+// TRY: 練習問題１
 // hikakin オブジェクト を真似して自分のプロフィールをオブジェクトで作ってください。
 // オブジェクトにはたくさんのプロパティを追加してください。
 const airi = {
@@ -36,8 +38,8 @@ console.log(me)
 
 // TRY: 練習問題２
 // hikakin オブジェクトに入っている sayHello メソッドを実行してください。
-const hikakin = {
-  name: "ヒカキン",
+const hika = {
+  name: "ヒカ",
   age: 24,
   sayHello: function () {
     console.log("ブンブンハロー YouTube")
